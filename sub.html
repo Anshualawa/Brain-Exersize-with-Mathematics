@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Train Math Game</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav>
+        <button id="nav" onclick="window.open('Addition.html','_self')">
+            <marquee>Addition</marquee>
+        </button>
+        <button id="nav" onclick="window.open('multi.html','_self')">
+            <marquee direction="right">Multiplication</marquee>
+        </button>
+    </nav>
+    <div class="Q" onclick="Substract()">
+        <fieldset>
+            <legend>Substraction Game range(1 to 10)</legend>
+            <div>
+                <h4 id="emot"></h4>
+            </div>
+            <h1 id="x">x</h1>
+            <h1 id="operator">-</h1>
+            <h1 id="y">y</h1>
+            <h1>=</h1>
+            <input type="text" name="" id="n" placeholder="?">
+            <br>
+            <h2 id="ans">Touch me for check</h2>
+            <br>
+            <button id="check" type="reset">Check</button>
+            <button id="next" onclick="window.open('sub.html','_self')">Next</button>
+            <div></div>
+        </fieldset>
+    </div>
+
+
+    <div><button onclick="LogOut()">LogOut</button></div>
+
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>

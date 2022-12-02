@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <marquee>
+        <h1 style="color: blue;">Welcome to Brain Train Mathematics Game</h1>
+    </marquee>
+    <div></div>
+
+    <h2>Login Here for Play Math Game and Password <p id="ps">None</p>
+    </h2>
+    <form action="Addition.html">
+        <input type="text" id="user" placeholder="Name" required><br><br>
+        <input type="email" name="" id="email" placeholder="Email ID" required> <br><br>
+        <input type="password" name="" id="psw" placeholder="Password"> <br><br>
+        <button type="submit" onclick="return Login()">Login</button>
+    </form>
+
+
+
+
+
+    <script>
+        // ************ Start Login Game ****************
+
+        var pas = Math.floor((Math.random() * 9999) + 999);
+
+        document.getElementById('ps').innerHTML = pas;
+
+        function Login() {
+            var name = document.getElementById('user').value;
+            var email = document.getElementById('email').value;
+            var password = document.getElementById('psw').value;
+
+            if (name == '' || email == '' || password == '') {
+                alert("Empty Field not accepted !");
+                return false;
+            }
+            else if (pas != password) {
+                alert("Wroungh Password !");
+                return false;
+            }
+            else {
+                alert("Login Successfuly Enjoy the Game ");
+                return true;
+            }
+
+
+        }
+
+// ************ End Login Game ****************
+    </script>
+</body>
+
+</html>
