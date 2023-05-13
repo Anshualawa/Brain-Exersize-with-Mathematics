@@ -1,3 +1,21 @@
+var app = angular.module("myGame", ['ui.router']);
+
+
+app.config(function ($stateProvider, $urlRouterProvider) {
+    var Game = {
+        name: 'game', ulr: '/game', templateUrl: './directives/Game.html'
+    }
+    $stateProvider.state(Game);
+});
+
+
+$(document).ready(function () { 
+    alert("hello learner")
+});
+
+
+
+
 var x = Math.floor((Math.random() * 10) + 1);
 var y = Math.floor((Math.random() * 10) + 1);
 

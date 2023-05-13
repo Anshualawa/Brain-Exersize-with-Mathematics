@@ -1,12 +1,19 @@
 <div class="row  text-center bg-light bg-opacity-75 shadow-lg fixed-top">
     <div class="col-lg-4">Left</div>
     <div class="col-lg-4 ">
-        <div class="row">
-            <div class="col-lg-3 py-2 "><span class="btn btn-dark shadow-lg">Home</span></div>
-            <div class="col-lg-3 py-2 "><span class="btn btn-dark shadow-lg">Game</span></div>
-            <div class="col-lg-3 py-2 "><span class="btn btn-dark shadow-lg">button</span></div>
-            <div class="col-lg-3 py-2 "><span class="btn btn-dark shadow-lg">About</span></div>
+        <div class="row ">
+            <div class="col-lg-3  "></div>
+            <div class="col-lg-2 mx-2 btn btn-dark active" ui-sref="game">Game</div>
+            <div class="col-lg-2 mx-2 btn btn-dark">Game</div>
+            <div class="col-lg-2 mx-2 btn btn-dark">Game</div>
+            <div class="col-lg-3 "></div>
         </div>
     </div>
-    <div class="col-lg-4">Right</div>
+    <div class="col-lg-4">
+        <div class="row">
+            <div class="col-lg-2 btn btn-dark" ui-sref="login">Login</div>
+        </div>
+    </div>
 </div>
+
+<ui-view></ui-view>
