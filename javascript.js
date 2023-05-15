@@ -10,7 +10,7 @@ app.config(function ($stateProvider, $urlRouterProvider) {
 
 
 $(document).ready(function () { 
-    alert("hello learner")
+    // alert("hello learner")
 });
 
 
