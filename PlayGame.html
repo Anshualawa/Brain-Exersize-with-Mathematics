@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- ---------------- Bootstrap ------------- -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 
     <!-- -------------------- jQuery -----------------  -->
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"
@@ -26,69 +26,18 @@
     <link rel="stylesheet" href="style/CustomStyle.css">
 </head>
 
-<body>
-    <navi-gation></navi-gation>
-    <div class="container">
-        <enter-game></enter-game>
+<body
+    style="background-image: url('https://images.squarespace-cdn.com/content/v1/52fd69d0e4b01d4da24bfea9/47fe730a-2473-4d4f-b446-e45b550b3d4b/ai-math.jpg?format=10000w');">
+    <div class="bg-info bg-opacity-50">
+
+        <navi-gation></navi-gation>
+        <div class="container">
+            <enter-game></enter-game>
+        </div>
+
+        
     </div>
-
-
-
-
-
-    <!-- <marquee>
-        <h1 style="color: blue;">Welcome to Brain Train Mathematics Game</h1>
-    </marquee>
-
-    <div></div>
-
-    <h2>Login Here for Play Math Game and Password <p id="ps">None</p>
-    </h2>
-    <form action="Addition.html">
-        <input type="text" id="user" placeholder="Name" required><br><br>
-        <input type="email" name="" id="email" placeholder="Email ID" required> <br><br>
-        <input type="password" name="" id="psw" placeholder="Password"> <br><br>
-        <button type="submit" onclick="return Login()">Login</button>
-    </form>
-
-
-
-
-
-
-    <script>
-        // ************ Start Login Game ****************
-
-        var pas = Math.floor((Math.random() * 9999) + 999);
-
-        document.getElementById('ps').innerHTML = pas;
-
-        function Login() {
-            var name = document.getElementById('user').value;
-            var email = document.getElementById('email').value;
-            var password = document.getElementById('psw').value;
-
-            if (name == '' || email == '' || password == '') {
-                alert("Empty Field not accepted !");
-                return false;
-            }
-            else if (pas != password) {
-                alert("Wroungh Password !");
-                return false;
-            }
-            else {
-                alert("Login Successfuly Enjoy the Game ");
-                return true;
-            }
-
-
-        }
-
-// ************ End Login Game ****************
-    </script> -->
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
