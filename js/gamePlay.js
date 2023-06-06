@@ -39,5 +39,12 @@ function card() {
         + '<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card' + "s content.</p>"
         + '<a href="#" class="btn btn-primary">Go somewhere</a>'
         + '</div >'
-        + '</div > ')
+        + '</div > ');
+
+    $('.game').html('<div class="col-4 border-info m-5 btn btn-info rounded-5 ">Addition</div>' +
+        '<div class="col-4 border-info m-5 btn btn-info rounded-5 ">Substraction</div>' +
+        '<div class="col-4 border-info m-5 btn btn-info rounded-5 ">Multiplication</div>')
+
+
+
 }
